@@ -1,3 +1,6 @@
 type proc_deny_new_usb, fs_type, proc_type;
 
 type sysfs_livedisplay_tuneable, fs_type, sysfs_type;
+
+# Themes
+type theme_data_file, file_type, data_file_type;
