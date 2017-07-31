@@ -9,6 +9,7 @@ allow system_server pocket_judge_sysfs:file rw_file_perms;
 
 # allow system_server to look into theme resources
 allow system_server theme_data_file:dir search;
+allow system_server substratum_service:service_manager find;
 
 # theme property
 get_prop(system_server, theme_prop)
@@ -17,6 +18,7 @@ set_prop(system_server, theme_prop)
 allow system_server custom_font_service:service_manager find;
 
 # Allow access theme data files
+r_dir_file(system_server, theme_data_file)
 allow system_server theme_data_file:dir { create_dir_perms relabelto rw_dir_perms };
 allow system_server theme_data_file:file { create_file_perms relabelto rw_file_perms };
 
