@@ -1,2 +1,6 @@
 # Allow NFC service to be found
 allow platform_app nfc_service:service_manager find;
+
+# Allow CPUInfo access to thermal
+allow platform_app sysfs_thermal:dir search;
+allow platform_app sysfs_thermal:file r_file_perms;
