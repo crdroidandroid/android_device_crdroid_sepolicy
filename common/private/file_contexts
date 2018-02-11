@@ -22,3 +22,6 @@
 /sys/devices/virtual/timed_output/vibrator/vtg_level u:object_r:sysfs_vibrator:s0
 /sys/devices/virtual/timed_output/vibrator/vtg_min u:object_r:sysfs_vibrator:s0
 /sys/devices/virtual/timed_output/vibrator/vtg_max u:object_r:sysfs_vibrator:s0
+
+# Pocket judge
+/sys/kernel/pocket_judge(/.*)?	u:object_r:pocket_judge_sysfs:s0
