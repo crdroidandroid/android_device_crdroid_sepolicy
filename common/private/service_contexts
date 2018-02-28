@@ -8,3 +8,4 @@ lineageweather                            u:object_r:lineage_weather_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
 
 adbroot_service                           u:object_r:adbroot_service:s0
+pocket                                    u:object_r:pocket_service:s0
