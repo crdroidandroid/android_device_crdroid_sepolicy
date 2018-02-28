@@ -18,3 +18,6 @@
 
 # Bash
 /(system_ext|system/system_ext)/bin/bash          u:object_r:shell_exec:s0
+
+# Pocket judge
+/sys/kernel/pocket_judge(/.*)?	u:object_r:pocket_judge_sysfs:s0
