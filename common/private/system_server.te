@@ -8,3 +8,7 @@ hal_client_domain(system_server, hal_lineage_livedisplay)
 hal_client_domain(system_server, hal_lineage_touch)
 hal_client_domain(system_server, hal_lineage_trust)
 hal_client_domain(system_server, hal_lineage_powershare)
+
+allow system_server pocket_service:service_manager { add find };
+allow system_server pocket_judge_sysfs:dir search;
+allow system_server pocket_judge_sysfs:file rw_file_perms;
