@@ -4,3 +4,5 @@ allow system_server custom_font_service:service_manager find;
 
 allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
+
+allow system_server edgegesture_service:service_manager { add find };

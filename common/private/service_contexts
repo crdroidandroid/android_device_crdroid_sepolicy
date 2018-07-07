@@ -1,3 +1,4 @@
+edgegestureservice                        u:object_r:edgegesture_service:s0
 fontservice                               u:object_r:custom_font_service:s0
 lineageaudio                              u:object_r:lineage_audio_service:s0
 lineagehardware                           u:object_r:lineage_hardware_service:s0
