@@ -1,0 +1,6 @@
+# Write to /proc/sys/
+allow vendor_init proc:file w_file_perms;
+
+allow vendor_init {
+    proc
+}:file { create getattr open read write setattr relabelfrom unlink };
