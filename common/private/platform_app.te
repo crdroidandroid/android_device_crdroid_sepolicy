@@ -7,3 +7,6 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 # Allow CPUInfo access to thermal
 allow platform_app sysfs_thermal:dir search;
 allow platform_app sysfs_thermal:file r_file_perms;
+
+# Allow launcher access system data file
+allow platform_app system_data_file:file {getattr read};
