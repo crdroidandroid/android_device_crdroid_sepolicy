@@ -1,3 +1,5 @@
 # Themes
+r_dir_file(zygote, theme_data_file)
 allow zygote theme_data_file:file r_file_perms;
 allow zygote theme_data_file:dir r_dir_perms;
+get_prop(zygote, theme_prop)
