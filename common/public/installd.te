@@ -1,0 +1,2 @@
+# Scan through OMS APKS in /data/system/theme
+r_dir_file(installd, theme_data_file)

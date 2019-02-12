@@ -11,3 +11,7 @@ get_prop(system_app, vendor_security_patch_level_prop)
 # Allow access to the HALs
 hal_client_domain(system_app, hal_lineage_livedisplay)
 hal_client_domain(system_app, hal_lineage_touch)
+
+# Allow access theme data files
+allow system_app theme_data_file:dir create_dir_perms;
+allow system_app theme_data_file:file create_file_perms;

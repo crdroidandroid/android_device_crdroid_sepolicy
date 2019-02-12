@@ -19,6 +19,7 @@ set_prop(system_server, theme_prop)
 allow system_server custom_font_service:service_manager find;
 
 # Allow access theme data files
+r_dir_file(system_server, theme_data_file)
 allow system_server theme_data_file:dir { create_dir_perms relabelto rw_dir_perms };
 allow system_server theme_data_file:file { create_file_perms relabelto rw_file_perms };
 
