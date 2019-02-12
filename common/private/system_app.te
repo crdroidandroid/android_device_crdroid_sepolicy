@@ -15,3 +15,7 @@ hal_client_domain(system_app, hal_lineage_touch)
 # Allow access theme data files
 allow system_app theme_data_file:dir create_dir_perms;
 allow system_app theme_data_file:file create_file_perms;
+
+# Allow access switches
+allow system_app sysfs_switch:dir search;
+allow system_app sysfs_switch:file rw_file_perms;
