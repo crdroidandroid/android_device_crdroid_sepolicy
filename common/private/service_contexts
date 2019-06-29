@@ -9,3 +9,4 @@ lineagetrust                              u:object_r:lineage_trust_service:s0
 lineageweather                            u:object_r:lineage_weather_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
 pocket                                    u:object_r:pocket_service:s0
+substratum                                u:object_r:substratum_service:s0
