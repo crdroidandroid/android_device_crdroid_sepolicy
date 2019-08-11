@@ -26,3 +26,6 @@ hal_client_domain(system_server, hal_lineage_touch)
 hal_client_domain(system_server, hal_lineage_trust)
 
 allow system_server substratum_service:service_manager find;
+
+# Long screenshot
+add_service(system_server, longshot_service)
