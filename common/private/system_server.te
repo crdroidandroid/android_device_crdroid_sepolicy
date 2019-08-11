@@ -12,3 +12,6 @@ hal_client_domain(system_server, hal_lineage_powershare)
 allow system_server pocket_service:service_manager { add find };
 allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
+
+# Long screenshot
+add_service(system_server, longshot_service)
