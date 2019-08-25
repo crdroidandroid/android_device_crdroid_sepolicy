@@ -11,7 +11,6 @@ allow system_server theme_data_file:dir search;
 
 # theme property
 get_prop(system_server, theme_prop)
-set_prop(system_server, theme_prop)
 
 allow system_server custom_font_service:service_manager find;
 
