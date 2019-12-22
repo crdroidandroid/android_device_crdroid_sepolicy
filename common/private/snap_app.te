@@ -8,6 +8,7 @@ allow snap_app app_api_service:service_manager find;
 allow snap_app audioserver_service:service_manager find;
 allow snap_app cameraserver_service:service_manager find;
 allow snap_app drmserver_service:service_manager find;
+allow snap_app gpu_service:service_manager find;
 allow snap_app mediacodec_service:service_manager find;
 allow snap_app mediaextractor_service:service_manager find;
 allow snap_app mediaserver_service:service_manager find;
