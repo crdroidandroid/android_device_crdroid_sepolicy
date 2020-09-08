@@ -1,3 +1,6 @@
 # Aux camera whitelist prop readable to everything
 vendor.camera.aux.packagelist          u:object_r:exported_default_prop:s0
 vendor.camera.hal1.packagelist         u:object_r:exported_default_prop:s0
+
+# Faceunlock prop
+ro.vendor.sensors.mot_ltv              u:object_r:exported_default_prop:s0
