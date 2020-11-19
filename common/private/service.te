@@ -8,5 +8,6 @@ type lineage_trust_service, system_api_service, system_server_service, service_m
 type lineage_weather_service, system_api_service, system_server_service, service_manager_type;
 type pocket_service, system_api_service, system_server_service, service_manager_type;
 type longshot_service, system_api_service, system_server_service, service_manager_type;
-
 type applock_service, system_api_service, system_server_service, service_manager_type;
+type dc_dimming_service, system_api_service, system_server_service, service_manager_type;
+

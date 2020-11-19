@@ -11,3 +11,5 @@ pocket                                    u:object_r:pocket_service:s0
 longshot                                  u:object_r:longshot_service:s0
 
 applock                                   u:object_r:applock_service:s0
+
+dc_dim_service		                      u:object_r:dc_dimming_service:s0
