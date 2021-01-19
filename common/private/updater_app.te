@@ -14,7 +14,7 @@ allow updater_app update_engine_service:service_manager find;
 allow updater_app app_data_file:dir create_dir_perms;
 allow updater_app app_data_file:{ file lnk_file } create_file_perms;
 
-allow updater_app cache_file:dir r_dir_perms;
+allow updater_app cache_file:dir rw_dir_perms;
 
 allow updater_app cache_recovery_file:dir rw_dir_perms;
 allow updater_app cache_recovery_file:file create_file_perms;
