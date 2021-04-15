@@ -15,3 +15,6 @@ hal_client_domain(platform_app, hal_lineage_powershare)
 
 # Allow Touch HAL service to be found
 hal_client_domain(platform_app, hal_lineage_touch)
+
+# Screenshot sound
+get_prop(platform_app, exported_audio_prop);
