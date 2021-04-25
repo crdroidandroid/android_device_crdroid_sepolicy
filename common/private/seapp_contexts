@@ -2,4 +2,3 @@ user=_app isPrivApp=true seinfo=platform name=com.android.gallery3d domain=galle
 user=_app isPrivApp=true seinfo=platform name=org.lineageos.snap domain=snap_app type=app_data_file levelFrom=user
 user=_app isPrivApp=true seinfo=platform name=com.crdroid.updater domain=updater_app type=app_data_file levelFrom=user
 user=_app seinfo=platform name=com.google.android.turboadapter domain=turbo_adapter type=app_data_file levelFrom=all
-user=_app seinfo=platform name=com.google.android.flipendo domain=flipendo type=app_data_file levelFrom=all
