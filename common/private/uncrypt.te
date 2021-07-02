@@ -1,0 +1,2 @@
+allow uncrypt cache_file:dir rw_dir_perms;
+allow uncrypt cache_file:file create_file_perms;
