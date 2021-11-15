@@ -5,3 +5,6 @@ type hal_lineage_livedisplay_hwservice, hwservice_manager_type;
 type hal_lineage_powershare_hwservice, hwservice_manager_type;
 type hal_lineage_touch_hwservice, hwservice_manager_type;
 type hal_lineage_trust_hwservice, hwservice_manager_type;
+
+# TurboAdapter
+type hal_turbo_adapter_hwservice, hwservice_manager_type;
