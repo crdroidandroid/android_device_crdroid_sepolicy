@@ -1,2 +1,6 @@
+# Camera
+vendor.camera.aux.packageexcludelist       u:object_r:vendor_exported_system_prop:s0
+vendor.camera.skip_unconfigure.packagelist u:object_r:vendor_exported_system_prop:s0
+
 # FM
 hw.fm.                                  u:object_r:exported3_system_prop:s0
