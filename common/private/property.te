@@ -1,1 +1,4 @@
 #type recovery_update_prop, property_type, extended_core_property_type;
+
+# Wi-Fi Display
+system_public_prop(media_wfd_prop);

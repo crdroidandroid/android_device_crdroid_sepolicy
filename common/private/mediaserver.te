@@ -1,0 +1,3 @@
+# Allow mediaserver to get wfd properties
+get_prop(mediaserver, media_wfd_prop);
+
