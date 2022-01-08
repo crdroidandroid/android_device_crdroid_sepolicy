@@ -1,7 +1,7 @@
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 
 # Recovery update
-#persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
+persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
 
 # Camera
 vendor.camera.aux.packageexcludelist       u:object_r:vendor_exported_system_prop:s0
