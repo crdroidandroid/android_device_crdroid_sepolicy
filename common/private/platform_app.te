@@ -1,5 +1,3 @@
-allow platform_app zygote:unix_stream_socket getopt;
-
 # MatLog calls dmesg
 allow platform_app kernel:system syslog_read;
 
