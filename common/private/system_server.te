@@ -18,3 +18,6 @@ set_prop(system_server, xtra_control_prop)
 allow system_server pocket_service:service_manager { add find };
 allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
+
+# Linearmotor Vibrator
+add_service(system_server, linearmotor_vibrator_service);
