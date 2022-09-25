@@ -24,3 +24,6 @@ allow system_server pocket_judge_sysfs:file rw_file_perms;
 
 # Set tethering properties
 set_prop(system_server, device_config_tethering_prop)
+
+# Linearmotor Vibrator
+add_service(system_server, linearmotor_vibrator_service);
