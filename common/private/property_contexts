@@ -21,6 +21,12 @@ ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 ro.lineage.device                      u:object_r:custom_version_prop:s0
 
+# Dolby Properties
+ro.vendor.dolby.dax.version            u:object_r:exported_system_prop:s0
+ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
+ro.vendor.audio.dolby.dax.version      u:object_r:exported_system_prop:s0
+ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
+
 # Force multi-window behavior
 ro.config.force_multi_window           u:object_r:exported_config_prop:s0 exact bool
 
