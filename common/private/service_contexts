@@ -5,5 +5,6 @@ lineagetrust                              u:object_r:lineage_trust_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
 
 adbroot_service                           u:object_r:adbroot_service:s0
+app_lock                                  u:object_r:app_lock_service:s0
 parallel                                  u:object_r:parallel_space_manager_service:s0
 pocket                                    u:object_r:pocket_service:s0
