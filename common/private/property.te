@@ -1,2 +1,5 @@
 # Recovery update
 system_internal_prop(recovery_update_prop)
+
+# Tethering
+system_internal_prop(device_config_tethering_prop)
