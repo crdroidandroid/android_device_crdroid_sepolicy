@@ -9,3 +9,6 @@ hal_client_domain(system_app, hal_lineage_health)
 
 # Allow SetupWizard to set recovery update prop
 set_prop(system_app, recovery_update_prop)
+
+# Allow Settings to read default navbar prop
+get_prop(system_app, qemu_hw_prop)
