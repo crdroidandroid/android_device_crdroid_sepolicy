@@ -1,3 +1,5 @@
+genfscon proc /sys/vm/dirty_background_bytes u:object_r:proc_dirty:s0
+genfscon proc /sys/vm/dirty_bytes u:object_r:proc_dirty:s0
 genfscon sysfs /devices/virtual/timed_output/vibrator u:object_r:sysfs_vibrator:s0
 genfscon sysfs /module/mmcblk/parameters/perdev_minors u:object_r:sysfs_perdev_minors:s0
 
