@@ -22,3 +22,6 @@ get_prop(platform_app, audio_config_prop)
 # Allow launcher app to read memory info
 r_dir_file(platform_app, config_gz)
 r_dir_file(platform_app, sysfs_zram)
+
+# Launcher apps read pm.archiving.enabled
+get_prop(platform_app, pm_archiving_enabled_prop)
