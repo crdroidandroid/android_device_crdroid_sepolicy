@@ -23,3 +23,6 @@ allow system_server pocket_judge_sysfs:file rw_file_perms;
 
 # Linearmotor Vibrator
 add_service(system_server, linearmotor_vibrator_service);
+
+# Freeform
+add_service(system_server, lmo_freeform_service);
