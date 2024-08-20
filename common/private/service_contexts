@@ -11,3 +11,6 @@ pocket                                    u:object_r:pocket_service:s0
 
 # Linearmotor Vibrator
 linearmotor                               u:object_r:linearmotor_vibrator_service:s0
+
+# Freeform
+lmo_freeform                              u:object_r:lmo_freeform_service:s0
