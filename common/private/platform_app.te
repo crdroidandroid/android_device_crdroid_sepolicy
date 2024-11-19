@@ -25,3 +25,7 @@ r_dir_file(platform_app, sysfs_zram)
 
 # Launcher apps read pm.archiving.enabled
 get_prop(platform_app, pm_archiving_enabled_prop)
+
+# Access zram sysfs
+allow platform_app sysfs_zram:dir r_dir_perms;
+allow platform_app sysfs_zram:file r_file_perms;
