@@ -13,3 +13,4 @@ type linearmotor_vibrator_service, system_api_service, system_server_service, se
 
 # Freeform
 type lmo_freeform_service, system_api_service, system_server_service, service_manager_type;
+type boost_framework_service, system_api_service, system_server_service, service_manager_type;
