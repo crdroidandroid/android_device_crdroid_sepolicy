@@ -26,3 +26,6 @@ add_service(system_server, linearmotor_vibrator_service);
 
 # Freeform
 add_service(system_server, lmo_freeform_service);
+
+# Boost framework
+add_service(system_server, boost_framework_service);
