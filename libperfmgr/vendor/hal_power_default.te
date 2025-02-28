@@ -11,3 +11,4 @@ allow hal_power_default fwk_stats_service:service_manager find;
 
 # Allow hal_power to access thermal service
 hal_client_domain(hal_power_default, hal_thermal)
+binder_call(hal_power_default, stats_service_server);
