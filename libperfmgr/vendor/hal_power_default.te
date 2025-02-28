@@ -8,3 +8,4 @@ set_prop(hal_power_default, vendor_power_prop)
 
 # To grant access to IStats service for metrics
 allow hal_power_default fwk_stats_service:service_manager find;
+binder_call(hal_power_default, stats_service_server);
