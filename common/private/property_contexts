@@ -11,7 +11,7 @@ vendor.camera.aux.packageexcludelist   u:object_r:camera2_extensions_prop:s0
 vendor.camera.aux.packagelist          u:object_r:camera2_extensions_prop:s0
 
 # Custom legal URL
-ro.lineagelegal.url                    u:object_r:legal_url_prop:s0
+ro.crdroidlegal.url                    u:object_r:legal_url_prop:s0
 
 # Custom version
 ro.lineage.version                     u:object_r:custom_version_prop:s0
