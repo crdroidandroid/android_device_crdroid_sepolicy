@@ -20,6 +20,20 @@ get_prop(platform_app, audio_config_prop)
 r_dir_file(platform_app, config_gz)
 r_dir_file(platform_app, sysfs_zram)
 
+# allow apps like settings to check the file signature of an apk installed on
+# the Incremental File System, fill missing blocks and get the app status and loading progress
+allowxperm platform_app apk_data_file:file ioctl {
+  INCFS_IOCTL_READ_SIGNATURE
+  INCFS_IOCTL_FILL_BLOCKS
+  INCFS_IOCTL_GET_BLOCK_COUNT
+  INCFS_IOCTL_GET_FILLED_BLOCKS
+};
+
+allow platform_app proc_filesystems:file r_file_perms;
+
+# Allow launcher app to check incremental progress 
+get_prop(platform_app, incremental_prop)
+
 # Launcher apps read pm.archiving.enabled
 get_prop(platform_app, pm_archiving_enabled_prop)
 
