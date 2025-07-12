@@ -20,3 +20,6 @@ boost_framework                           u:object_r:boost_framework_service:s0
 
 # Theme Engine
 theme_engine                                  u:object_r:theme_engine_service:s0
+
+# Game space
+game_space                                u:object_r:game_space_service:s0
