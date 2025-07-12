@@ -40,3 +40,6 @@ add_service(system_server, boost_framework_service);
 
 # Theme Engine
 add_service(system_server, theme_engine_service);
+
+# Game space
+add_service(system_server, game_space_service);
