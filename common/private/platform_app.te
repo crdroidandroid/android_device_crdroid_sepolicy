@@ -20,6 +20,9 @@ get_prop(platform_app, audio_config_prop)
 r_dir_file(platform_app, config_gz)
 r_dir_file(platform_app, sysfs_zram)
 
+# Allow systemui to read thermal for CPUInfo
+r_dir_file(platform_app, sysfs_thermal)
+
 # allow apps like settings to check the file signature of an apk installed on
 # the Incremental File System, fill missing blocks and get the app status and loading progress
 allowxperm platform_app apk_data_file:file ioctl {
