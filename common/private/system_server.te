@@ -5,6 +5,7 @@ allow system_server adbroot_service:service_manager find;
 add_service(system_server, app_lock_service);
 
 # CachedAppOptimizer
+allow system_server audioserver_tmpfs:file rw_file_perms;
 allow system_server tmpfs:file rw_file_perms;
 allow system_server zygote_tmpfs:file rw_file_perms;
 
