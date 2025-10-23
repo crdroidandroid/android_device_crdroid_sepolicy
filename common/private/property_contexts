@@ -34,6 +34,8 @@ ro.lib_gui.buffer_dequeue_timeout_ms   u:object_r:bq_config_prop:s0
 ro.lib_gui.fence_timeout_ms            u:object_r:bq_config_prop:s0
 
 # Pixel props
+persist.sys.spoof.                     u:object_r:custom_version_prop:s0
+persist.sys.pihooks.                   u:object_r:custom_version_prop:s0
 persist.sys.pixelprops.                u:object_r:custom_version_prop:s0
 
 # Recovery battery
