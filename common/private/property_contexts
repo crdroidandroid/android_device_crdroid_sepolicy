@@ -26,6 +26,8 @@ ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 
 # Pixel props
+persist.sys.spoof.                     u:object_r:custom_version_prop:s0
+persist.sys.pihooks.                   u:object_r:custom_version_prop:s0
 persist.sys.pixelprops.                u:object_r:custom_version_prop:s0
 
 # Recovery battery
