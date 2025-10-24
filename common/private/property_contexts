@@ -14,7 +14,13 @@ vendor.camera.skip_unconfigure.packagelist  u:object_r:camera2_extensions_prop:s
 # Custom legal URL
 ro.crdroidlegal.url                    u:object_r:legal_url_prop:s0
 
-# Custom version
+# Custom version (crdroid)
+ro.crdroid.device                      u:object_r:custom_version_prop:s0
+ro.crdroid.build.version               u:object_r:custom_version_prop:s0
+ro.crdroid.display.version             u:object_r:custom_version_prop:s0
+ro.crdroid.version                     u:object_r:custom_version_prop:s0
+
+# Custom version (lineage)
 ro.lineage.version                     u:object_r:custom_version_prop:s0
 ro.lineage.display.version             u:object_r:custom_version_prop:s0
 ro.lineage.build.version               u:object_r:custom_version_prop:s0
