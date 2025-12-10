@@ -1,1 +1,2 @@
 allow untrusted_app_all lineage_profile_service:service_manager find;
+allow untrusted_app_all theme_engine_service:service_manager find;
