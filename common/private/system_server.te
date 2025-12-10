@@ -37,3 +37,6 @@ add_service(system_server, lmo_freeform_service);
 
 # Boost framework
 add_service(system_server, boost_framework_service);
+
+# Theme Engine
+add_service(system_server, theme_engine_service);
