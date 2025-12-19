@@ -20,6 +20,9 @@ get_prop(platform_app, audio_config_prop)
 r_dir_file(platform_app, config_gz)
 r_dir_file(platform_app, sysfs_zram)
 
+# Allow systemui access to bluetooth_lea_prop
+get_prop(platform_app, bluetooth_lea_prop)
+
 # Allow systemui to read thermal for CPUInfo
 r_dir_file(platform_app, sysfs_thermal)
 
