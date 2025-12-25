@@ -48,5 +48,10 @@ allow platform_app sysfs_zram:dir r_dir_perms;
 allow platform_app sysfs_zram:file r_file_perms;
 
 # TrickyStore
+allow platform_app adb_data_file:dir { search getattr };
 allow platform_app trickystore_data_file:dir { create open read write add_name remove_name search getattr };
 allow platform_app trickystore_data_file:file { create open read write getattr setattr unlink };
+
+# PlayIntegrityFix
+allow platform_app pif_data_file:dir { create open read write add_name remove_name search getattr };
+allow platform_app pif_data_file:file { create open read write getattr setattr unlink };
