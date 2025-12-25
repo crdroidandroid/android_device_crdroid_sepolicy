@@ -45,3 +45,7 @@ allow system_server trickystore_data_file:file { create open read write getattr 
 # PlayIntegrityFix
 allow system_server pif_data_file:dir { create open read write add_name remove_name search getattr };
 allow system_server pif_data_file:file { create open read write getattr setattr unlink };
+
+# GameProps
+allow system_server gameprops_data_file:dir r_dir_perms;
+allow system_server gameprops_data_file:file r_file_perms;

@@ -27,3 +27,6 @@
 
 # PlayIntegrityFix
 /data/adb/playintegrityfix(/.*)?                  u:object_r:pif_data_file:s0
+
+# GameProps
+/data/adb/gameprops(/.*)?                         u:object_r:gameprops_data_file:s0

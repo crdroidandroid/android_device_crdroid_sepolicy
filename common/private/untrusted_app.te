@@ -22,3 +22,11 @@ allow priv_app trickystore_data_file:dir { open read search getattr watch };
 allow priv_app trickystore_data_file:file { open read getattr };
 allow priv_app pif_data_file:dir { open read search getattr watch };
 allow priv_app pif_data_file:file { open read getattr };
+allow priv_app gameprops_data_file:dir { open read search getattr watch };
+allow priv_app gameprops_data_file:file { open read getattr };
+
+# GameProps
+allow untrusted_app_all gameprops_data_file:dir { open read search getattr watch };
+allow untrusted_app_all gameprops_data_file:file { open read getattr };
+
+allow isolated_app adb_data_file:dir { search getattr };
