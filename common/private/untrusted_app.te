@@ -1,1 +1,16 @@
 allow untrusted_app_all lineage_profile_service:service_manager find;
+
+# TrickyStore - AndroidKeyStoreSpi runs in app context
+allow untrusted_app_all adb_data_file:dir { search getattr };
+allow untrusted_app_all trickystore_data_file:dir { open read search getattr watch };
+allow untrusted_app_all trickystore_data_file:file { open read getattr };
+
+# GMS Core
+allow gmscore_app adb_data_file:dir { search getattr };
+allow gmscore_app trickystore_data_file:dir { open read search getattr watch };
+allow gmscore_app trickystore_data_file:file { open read getattr };
+
+# Privileged apps (Play Store, etc)
+allow priv_app adb_data_file:dir { search getattr };
+allow priv_app trickystore_data_file:dir { open read search getattr watch };
+allow priv_app trickystore_data_file:file { open read getattr };

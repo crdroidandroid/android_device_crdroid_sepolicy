@@ -46,3 +46,7 @@ get_prop(platform_app, pm_archiving_enabled_prop)
 # Access zram sysfs
 allow platform_app sysfs_zram:dir r_dir_perms;
 allow platform_app sysfs_zram:file r_file_perms;
+
+# TrickyStore
+allow platform_app trickystore_data_file:dir { create open read write add_name remove_name search getattr };
+allow platform_app trickystore_data_file:file { create open read write getattr setattr unlink };

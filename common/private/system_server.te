@@ -37,3 +37,7 @@ add_service(system_server, lmo_freeform_service);
 
 # Boost framework
 add_service(system_server, boost_framework_service);
+
+# TrickyStore
+allow system_server trickystore_data_file:dir { create open read write add_name remove_name search getattr };
+allow system_server trickystore_data_file:file { create open read write getattr setattr unlink };
