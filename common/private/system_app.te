@@ -21,3 +21,9 @@ get_prop(system_app, qemu_hw_prop)
 # Allow GameSpace to set process group
 allow system_app cgroup:dir search;
 allow system_app cgroup:file rw_file_perms;
+
+# Sandbox
+allow system_app ax_sandbox_vault_file:dir create_dir_perms;
+allow system_app ax_sandbox_vault_file:file create_file_perms;
+allow system_app system_data_file:dir search;
+allow system_app system_userdir_file:dir search;

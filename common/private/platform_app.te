@@ -46,3 +46,10 @@ get_prop(platform_app, pm_archiving_enabled_prop)
 # Access zram sysfs
 allow platform_app sysfs_zram:dir r_dir_perms;
 allow platform_app sysfs_zram:file r_file_perms;
+
+# Sandbox
+allow platform_app ax_sandbox_service:service_manager find;
+allow platform_app ax_sandbox_vault_file:dir create_dir_perms;
+allow platform_app ax_sandbox_vault_file:file create_file_perms;
+allow platform_app system_data_file:dir search;
+allow platform_app system_userdir_file:dir search;
