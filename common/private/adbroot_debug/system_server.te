@@ -1,0 +1,1 @@
+allow system_server adbroot_service:service_manager find;
