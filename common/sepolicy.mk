@@ -25,6 +25,11 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/vendor
 endif
 
+ifneq ($(filter eng,$(TARGET_BUILD_VARIANT)),)
+  SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+      device/lineage/sepolicy/common/private/adbroot_debug
+endif
+
 # Include atv rules on atv product
 ifeq ($(PRODUCT_IS_ATV), true)
 include device/lineage/sepolicy/atv/sepolicy.mk
