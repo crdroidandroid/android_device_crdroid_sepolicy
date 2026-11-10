@@ -20,3 +20,6 @@
 
 # Sandbox
 /data/system_ce/[0-9]*/sandbox/vault(/.*)?  u:object_r:ax_sandbox_vault_file:s0
+
+# Custom emoji font
+/data/fonts/emoji(/.*)?  u:object_r:font_data_file:s0
