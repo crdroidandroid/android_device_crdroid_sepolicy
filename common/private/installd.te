@@ -1,0 +1,3 @@
+# Custom emoji font handed over by FontManagerService for apps' own emoji files
+allow installd system_server:fd use;
+allow installd font_data_file:file { getattr read };
