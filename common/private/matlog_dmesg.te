@@ -14,6 +14,10 @@ allow matlog_dmesg kernel:system syslog_read;
 allow matlog_dmesg kmsg_device:chr_file r_file_perms;
 allow matlog_dmesg self:unix_stream_socket { accept listen };
 
+typeattribute matlog_dmesg pstorefs_reader;
+allow matlog_dmesg pstorefs:dir r_dir_perms;
+allow matlog_dmesg pstorefs:file r_file_perms;
+
 # MatLog runs as platform_app or platform_app_36 depending on its target SDK
 unix_socket_connect(platform_app_all, matlog_dmesg, matlog_dmesg)
 allow platform_app_all matlog_dmesg_socket:sock_file getattr;
